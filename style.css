@@ -1,0 +1,134 @@
+﻿body {
+    background-color: #FFCCCB;
+}
+
+.Base {
+    background-color: #E96D63;
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+
+}
+
+.ProfilePic {
+    margin-left: 10%;
+    display: block;
+    padding: 10px;
+    height: 40%;
+}
+
+.ProfilePic img {
+    padding: 5px;
+    width: 30%;
+}
+
+.name {
+    text-align: right;
+    color: red;
+    font-family: 'Bookman Old Style';
+    font-size: 40px;
+}
+
+.bioword {
+    text-align: center;
+    color: maroon;
+    font-family: 'Bookman Old Style';
+    font-size: 20px;
+}
+
+.resume embed {
+    padding: 2%;
+    margin-left: 20%;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+
+.Links a {
+    color: maroon;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 30px;
+    height: 10%;
+    padding-left: 7%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+.Tab {
+    width: 75%;
+    float: right;
+}
+
+.Tab h1 {
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#topname {
+    height: 757px;
+    background-color: #FF8784;
+}
+
+#bio {
+    height: 500px;
+    background-color: #fffdd0;
+}
+
+#resume {
+    height: 1300px;
+    background-color: #fffdd0;
+}
+
+#projects {
+    height: 800px;
+    background-color: #fffdd0;
+}
+
+#hobbies {
+    height: 500px;
+    background-color: #fffdd0;
+}
+
+#contactme {
+    height: 500px;
+    background-color: #fffdd0;
+}
+
+#game {
+    width: 1000px;
+    height: 700px;
+    border: 5px solid lightblue;
+}
+
+#character {
+    width: 10%;
+    position: relative;
+    top: 50px;
+}
+
+#block {
+    width: 1000px;
+    height: 700px;
+    position: relative;
+}
+
+.animate {
+    animation: move
+}
